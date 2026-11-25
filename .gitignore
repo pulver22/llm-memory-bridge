@@ -1,0 +1,41 @@
+# Python build, cache, and virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Secrets and local environment files
+.env
+.env.*
+!.env.example
+
+# Local chat exports, rollouts, and generated memory dumps
+conversations*.json
+*.zip
+*.jsonl
+chatgpt_memory_export/
+claude_compact_memory/
+codex_sessions_markdown/
+local_vault/
+exports/
+tmp_smoke*/
+
+# OS and IDE clutter
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
